@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='app-head'>
+      <header className='header-app'>
+      <nav className='main-app'>
+        <img className='logo-image' src='/css/food.jpg'></img>
+        <a className='info' href='#'>หน้าแรก</a>
+        <a className='info' href='#'>ตารางเทียบแคลลอรี</a>
+        <a className='info' href='#'>ผู้จัดทำ</a>
+      </nav>
+
       </header>
+      <section className='main-info-page'>
+        <div className='main-info'>
+          <h5 className='font-info'><u>อาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพตามวิถีภูมิปัญญาท้องถิ่นของจังหวัดอุบลราชธานี</u></h5>
+          <img className='pg' src='/css/f0901.jpg'></img>
+          <div className='content'>แกงอ่อมหอยขม เป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ตามวิถีภูมิปัญญาท้องถิ่น ของจังหวัดอุบลราชธานี ที่ได้สืบทอดกันมารุ่นต่อรุ่น เป็นแกงอ่อมอาหารพื้นเมืองที่อุดมไปด้วยคุณค่าทางโภชนาการเพราะส่วนประกอบหลักส่วนใหญ่เป็นผักและสมุนไพรพื้นบ้านนานาชนิดเป็นความผสมผสานที่ลงตัวระหว่างชนิดของอาหาร และเครื่องปรุง มีเสน่ห์ของความเป็นไทย</div>
+          <div className='content'> แกงอ่อมหอยขม เป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ตามวิถีภูมิปัญญาท้องถิ่น ของจังหวัดอุบลราชธานี ที่ได้สืบทอดกันมารุ่นต่อรุ่น เป็นแกงอ่อมอาหารพื้นเมืองที่อุดมไปด้วยคุณค่าทางโภชนาการเพราะส่วนประกอบหลักส่วนใหญ่เป็นผักและสมุนไพรพื้นบ้านนานาชนิดเป็นความผสมผสานที่ลงตัวระหว่างชนิดของอาหาร</div>
+          <div className='content'> แกงอ่อมหอยขม เป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ตามวิถีภูมิปัญญาท้องถิ่น ของจังหวัดอุบลราชธานี ที่ได้สืบทอดกันมารุ่นต่อรุ่น เป็นแกงอ่อมอาหารพื้นเมืองที่อุดมไปด้วยคุณค่าทางโภชนาการเพราะส่วนประกอบหลักส่วนใหญ่เป็นผักและสมุนไพรพื้นบ้านนานาชนิดเป็นความผสมผสานที่ลงตัวระหว่างชนิดของอาหาร</div>
+        </div>
+      </section>
     </div>
   );
 }
+
 
 export default App;
